@@ -4,7 +4,7 @@ driver = {};
 
 function updateDriverWithKeyAndValue(driver, key, value) {
   
-const newDriver = {...driver, address: value};
+const newDriver = {...driver};
 
 return newDriver;
   
